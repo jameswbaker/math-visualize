@@ -12,6 +12,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "proxy" : "math-visualize-backend-1cx6tkjpb-james-bakers-projects-feabf974.vercel.app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
