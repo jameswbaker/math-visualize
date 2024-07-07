@@ -6,7 +6,7 @@ function App() {
 
   useEffect(() => {
     axios.get('https://math-visualize-backend.vercel.app/api')
-      .then(response => console.log(response.data))
+      .then(response => setData(response.data))
       .catch(error => console.error('Error fetching data:', error));
   }, []);
 
