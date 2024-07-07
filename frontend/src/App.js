@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
+
 function App() {
   const [data, setData] = useState(null);
 
@@ -11,12 +12,12 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>React and Node.js App</h1>
-        {data ? <p>{data.message}</p> : <p>Loading...</p>}
-      </header>
-    </div>
+      <div className="App">
+        <header className="App-header">
+          <h1>React and Node.js App</h1>
+          {data ? <p>{data.message}</p> : <p>Loading...</p>}
+        </header>
+      </div>
   );
 }
 
